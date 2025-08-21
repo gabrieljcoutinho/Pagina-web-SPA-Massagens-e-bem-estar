@@ -1,0 +1,108 @@
+/* SEGUNDA/TERCEIRA SEÇÃO */
+
+.container__secao {
+    margin: 0 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__secao .container__secao--conteudo {
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5.6rem;
+}
+
+.container__secao .container__secao--conteudo .container__secao--conteudo--img1 {
+    width: 32.8rem;
+    height: 32rem;
+}
+
+.container__secao .container__secao--conteudo .container__secao--conteudo--textos {
+    max-width: 58.7rem;
+}
+
+.container__secao .container__secao--conteudo .container__secao--conteudo--textos .container__secao--conteudo--textos-titulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 2.6rem;
+    color: var(--azul-escuro);
+    font-weight: 400;
+}
+
+.container__secao .container__secao--conteudo .container__secao--conteudo--textos .container__secao--conteudo--textos-infos {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: var(--lilas-escuro);
+    margin: 1.6rem 0;
+}
+
+.container__secao .container__secao--conteudo .container__secao--conteudo--textos object {
+    width: 100%;
+}
+
+.container__secao .container__secao--conteudo .container__secao--conteudo--img2 {
+    width: 32.6rem;
+    height: 33rem;
+}
+
+.container__secao .container__secao--conteudo .container__secao--conteudo--img2:nth-child(2) {
+    padding-top: 1.6rem;
+}
+
+@media screen and (min-width: 768px) {
+    /* Tablet */
+
+    .container__secao {
+        margin: 4rem 6rem;
+    }
+
+    .container__secao .container__secao--conteudo .container__secao--conteudo--img1 {
+        width: 64.8rem;
+    }
+
+    .container__secao .container__secao--conteudo .container__secao--conteudo--img2 {
+        width: 31.2rem;
+        height: 32rem;
+    }
+
+    .container__secao .container__secao--conteudo .container__secao--conteudo--textos .container__secao--conteudo--textos-titulo {
+        font-size: 3.1rem;
+    }
+
+    .container__secao .container__secao--conteudo .container__secao--conteudo--textos .container__secao--conteudo--textos-infos {
+        font-size: 2.2rem;
+    }
+
+    .container__secao .container__secao--conteudo .container__secao--conteudo--img2:nth-child(2) {
+        padding-top: 0;
+        padding-left: 2.4rem;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .container__secao {
+      margin-left: 12rem;
+      margin-right: 12rem;
+    }
+  
+    .container__secao .container__secao--conteudo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      column-gap: 10.2rem;
+    }
+  
+    .container__secao .container__secao--conteudo .container__secao--conteudo--img1 {
+      width: 50.8rem;
+    }
+  
+    .container__secao .container__secao--conteudo .container__secao--conteudo--img2 {
+      width: 22.9rem;
+      height: 32rem;
+    }
+
+}

@@ -1,0 +1,115 @@
+.container__incricao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    row-gap: 2.4rem;
+    padding: 4.0rem 1.6rem;
+}
+
+.container__incricao--mobile {
+    width: 18.2rem;
+    height: 10.3rem;
+}
+
+.container__incricao--tablet {
+    display: none;
+}
+
+.container__incricao .container__incricao--form-titulo {
+    font-size: 2.6rem;
+}
+
+.container__incricao .container__incricao--form-texto {
+    font-size: 2.2rem;
+}
+
+.container__incricao .container__incricao--div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.4rem;
+    max-width: 110.2rem;
+}
+
+.container__incricao--form-input {
+    width: 32.8rem;
+    height: 6.5rem;
+    border-radius: 6.5rem;
+    border: .1rem solid var(--azul-escuro);
+    margin: 0 auto;
+    display: inline-flex;
+    row-gap: 2.4rem;
+}
+
+.container__incricao--form-input input {
+    border: none;
+    outline: none;
+    width: 65%;
+    margin-left: 3.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.0rem;
+    color: #0C0421;
+}
+
+.container__incricao--form-input button {
+    width: 35%;
+    color: white;
+    background: var(--azul-botao);
+    border-radius: 0 6.5rem 6.5rem 0;
+    border: none;
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    /* Seção inscrição */
+
+    .container__incricao {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container__incricao .container__incricao--mobile {
+        display: none;
+    }
+
+    .container__incricao .container__incricao--form-titulo {
+        font-size: 3.1rem;
+        font-family: Krona One;
+        font-weight: 400;
+    }
+
+    .container__incricao--form-texto {
+        font-size: 1.3rem;
+    }
+
+    .container__incricao--form-input {
+        width: 36.8rem;
+    }
+
+    .container__incricao--tablet {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+      /* Seção inscrição */
+
+  .container__incricao--form-input {
+    width: 79.0rem;
+    height: 6.5rem;
+    row-gap: 2.4rem;
+  }
+
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/cabecalho.css">
+    <link rel="stylesheet" href="./styles/container--primeiro.css">
+    <link rel="stylesheet" href="./styles/container--secao.css">
+    <link rel="stylesheet" href="./styles/container--cards.css">
+    <link rel="stylesheet" href="./styles/container--inscricao.css">
+    <link rel="stylesheet" href="./styles//container--contato.css">
+    <link rel="stylesheet" href="./styles/rodape.css">
+    <link rel="shortcut icon" href="./assets/Favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Calmaria Spa</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <a href="#">
+                <img class="cabecalho__nav--logo" src="./assets/logo.png" alt="Logo da Calmaria Spa" >
+            </a>
+            <span class="cabecalho__nav--line"></span>
+            <ul class="cabecalho__nav--lista">
+                <li class="cabecalho__lista-item"><a href="#">Espaço</a></li>
+                <li class="cabecalho__lista-item"><a href="#">Serviços</a></li>
+                <li class="cabecalho__lista-item"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="container__primeiro">
+            <div class="container__primeiro--texto">
+                <h1>Boas-vindas ao seu refúgio de <span>bem-estar</span></h1>
+                <button class="container__primeiro--texto-botao">Quero relaxar</button>
+            </div>
+            <img class="container__primeiro--imagem" src="./assets/home-image.png" alt="Mulher recebendo massagem">
+        </div>
+
+        <div class="container__secao">
+            <div class="container__secao--conteudo">
+                <img class="container__secao--conteudo--img1" src="./assets/espaco-1.png" alt="Piscina coberta com uma boia redonda">
+                <div class="container__secao--conteudo--textos">
+                    <h1 class="container__secao--conteudo--textos-titulo">Tecnologia e natureza no seu relaxamento</h1>
+                    <p class="container__secao--conteudo--textos-infos">Equipamentos de ponta, produtos certificados e
+                        uma equipe qualificada te ajudam a se livrar do stress com equilíbrio e tranquilidade.</p>
+                    <object data="./assets/separador-direita.svg" type="image/svg+xml"></object>
+                </div>
+            </div>
+            <div class="container__secao--conteudo">
+                <div class="container__secao--conteudo--textos">
+                    <h1 class="container__secao--conteudo--textos-titulo">Elevando o seu bem-estar</h1>
+                    <p class="container__secao--conteudo--textos-infos">Cada visita é uma jornada. Não importa a sua
+                        rotina, aqui você encontra seu paraíso particular.</p>
+                    <object data="./assets/separador-esquerda.svg" type="image/svg+xml"></object>
+                </div>
+                <div>
+                    <img class="container__secao--conteudo--img2" src="./assets/espaco-2.png" alt="Mulher segurando uma taça">
+                    <img class="container__secao--conteudo--img2" src="./assets/espaco-3.png" alt="Sofá em frente á piscina">
+                </div>
+            </div>
+        </div>
+
+        <div class="container container__cards">
+            <div class="container__cards--card">
+                <img src="./assets/icon-massagem.png"alt="" >
+                <h1 class="container__cards--card-title">Massagens</h1>
+                <img src="./assets/soft-star.png" alt="">
+                <p class="container__cards--card-texto">Relaxantes, terapêuticas e drenagens. Nossa equipe está pronta
+                    para aliviar suas tensões, tratar dores e retenção de líquido com técnicas eficientes.</p>
+            </div>
+            <div class="container__cards--card">
+                <img src="./assets/icon-tratamentos.png" alt="">
+                <h1 class="container__cards--card-title">Tratamentos</h1>
+                <img src="./assets/soft-star.png" alt="">
+                <p class="container__cards--card-texto">Sua pele gentilmente tratada com peelings, liftings, hidratações
+                    profundas do corpo e do rosto, além de limpeza facial e banhos revigorantes.</p>
+            </div>
+            <div class="container__cards--card">
+                <img src="./assets/icon-dias-especiais.png" alt="">
+                <h1 class="container__cards--card-title">Day Spa</h1>
+                <img src="./assets/soft-star.png" alt="">
+                <p class="container__cards--card-texto">Pacotes que vão desde o "Dia revitalizante" com massagens e
+                    tratamentos faciais, até o "Dia serenidade" com banhos terapêuticos e meditação.</p>
+            </div>
+        </div>
+
+        <div class="container__incricao">
+            <img class="container__incricao--mobile" src="./assets/mandala-superior-mobile.svg" alt="">
+            <img class="container__incricao--tablet" src="./assets/mandala-esquerda-tablet.svg" alt="">
+            <div class="container__incricao--div">
+                <h1 class="container__incricao--form-titulo">Inscreva-se para ganhar descontos!</h1>
+                <p class="container__incricao--form-texto">Cadastre-se em nossa newsletter para receber descontos e
+                    novidades sobre nossos serviços.</p>
+                <div class="container__incricao--form-input">
+                    <input id="inscricao" type="email">
+                    <button>Inscrever</button>
+                </div>
+            </div>
+            <img class="container__incricao--mobile" src="./assets/mandala-inferior-mobile.svg" alt="">
+            <img class="container__incricao--tablet" src="./assets/mandala-direita-tablet.svg" alt="">
+        </div>
+
+        <div class="container__contato">
+            <div class="container__contato--img">
+                <img src="./assets/contato-img-1.png" alt="Homem em uma banheira com produtos do spa no rosto">
+                <img src="./assets/contato-img-2.png" alt="Mulher em uma banheira olhando o horizonte">
+                <img src="./assets/contato-img-3.png" alt="Mulher em uma banehira com petalas de rosas">
+            </div>
+            <div action="." class="container__contato--form">
+                <div class="container__contato--form-conteudo">
+                    <h1 class="container__contato--form-conteudo-titulo">Entre em contato</h1>
+                    <p class="container__contato--form-conteudo-texto">Reserve seu horário, tire dúvidas ou proponha
+                        sugestões, nosso
+                        canal é aberto para
+                        você!</p>
+                </div>
+                <div class="container__contato--inputs">
+                    <label>Nome</label>
+                    <input type="text">
+                    <label>Email</label>
+                    <input type="email">
+                    <label>Telefone</label>
+                    <input type="text">
+                    <div>
+                        <p class="container__contato--inputs--titulo">Prefere contato por:</p>
+                        <div class="container__contato--inputs--div">
+                            <div>
+                                <input type="radio">
+                                <label>Ligação</label>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <label>WhatsApp</label>
+                            </div>
+                            <div>
+                                <input type="radio">
+                                <label>Email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <label>Mensagem</label>
+                    <textarea type="text"></textarea>
+                </div>
+                <button>Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <p>Acesse nossas redes:</p>
+        <div class="rodape__nav--lista">
+            <div><a href="#" class="rodape__nav--lista--whatsapp"></a></div>
+            <div><a href="#" class="rodape__nav--lista--instagram"></a></div>
+            <div><a href="#" class="rodape__nav--lista--tiktok"></a></div>
+        </div>
+        <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+    </div>
+
+</body>
+
+</html>

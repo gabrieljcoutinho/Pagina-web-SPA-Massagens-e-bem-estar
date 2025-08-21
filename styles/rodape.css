@@ -1,0 +1,25 @@
+.rodape {
+    background: #E8F5C8;
+    padding: 3.2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.rodape .rodape__nav--lista {
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    padding: 1.5rem 0;
+}
+
+.rodape .rodape__nav--lista .rodape__nav--lista--whatsapp::before {
+    content: url("/assets/Whatsapp.svg")
+}
+
+.rodape .rodape__nav--lista .rodape__nav--lista--instagram::before {
+    content: url("/assets/Instragam.svg");
+}
+
+.rodape .rodape__nav--lista .rodape__nav--lista--tiktok::before {
+    content: url("/assets/Tiktok.svg");
+}
